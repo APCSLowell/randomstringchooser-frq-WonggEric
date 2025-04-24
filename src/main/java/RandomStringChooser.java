@@ -12,7 +12,7 @@ public class RandomStringChooser
   public string getNext(){
     int rand = (int)(Math.random()*list.size());
     if(list.size()==0){
-      return "NONE"
+      return "NONE";
     }else{
       return list.remove(rand);
     }
